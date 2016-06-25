@@ -1,0 +1,22 @@
+div{
+    width: 500px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    font-family: helvetica;
+    font-size: 15px;
+}
+.header, .box, .aboutMe {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+} 
+
+h1{
+    text-align: center;
+}
+
+img{
+    height: 120px;
+    margin:auto;
+    display:block;
+}
