@@ -1,15 +1,31 @@
-div{
-    width: 500px;
+body {
+    background: #efefef;
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
     margin: 0 auto;
-    padding: 0px 15px;
-    font-family: helvetica;
-    font-size: 15px;
+    padding: 0px;
+    text-align:center;
 }
-.header, .box, .aboutMe {
+.box {
+    background: #fff;
+    width: 500px;
+    margin: 5px auto;
+    padding: 40px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    text-align: left;
+}
+
+header, section, address {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-bottom-color: gray;
 } 
+header, section, address, footer {
+   padding: 0 15px;
+} 
+address{
+    font-style: normal;
+}
 
 h1{
     text-align: center;
